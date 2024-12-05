@@ -32,6 +32,6 @@ const password = process.env.DB_PASSWORD;
 
 app.listen(PORT, () => console.log(`Server is running successfully on PORT ${PORT}`));
 
-const URL =process.env.MONGODB_URI || `mongodb+srv://${username}:${password}@crud-blog-web-app.l3kgw.mongodb.net/`;
+const URL =process.env.MONGODB_URI || `mongodb+srv://${username}:${password}@crud-blog-web-app.l3kgw.mongodb.net/blog_data`;
 
 Connection(URL);
